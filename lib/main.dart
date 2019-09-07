@@ -26,8 +26,18 @@ class _MyAppState extends State<MyApp> {
     }
 
     var questions = [
-      'What\'s your favorite color?',
-      'What\'s your favorite animal?'
+      {
+        'questionText': 'What\'s your favorite color?',
+        'answers': ['Blue', 'Red', 'Black', 'White']
+      },
+      {
+        'questionText': 'What\'s your favorite animal?',
+        'answers': ['Dog', 'Elephant', 'Lion', 'Fish']
+      },
+      {
+        'questionText': 'who\'s your favorite team?',
+        'answers': ['Manchester United', 'PSG', 'Real Madrid', 'Bayern']
+      },
     ];
     return MaterialApp(
       home: Scaffold(
